@@ -72,7 +72,7 @@ export default function BtnDrop() {
         {/* Bagian pertama menu */}
         <div className="py-1" role="none">
           <a
-            href="#"
+            href="#home"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem" // Menunjukkan item menu
             id="menu-item-0"
@@ -92,7 +92,7 @@ export default function BtnDrop() {
           </a>
           {/* ........... */}
           <a
-            href="#"
+            href="#konsultasi"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem"
             id="menu-item-1"
@@ -113,7 +113,7 @@ export default function BtnDrop() {
         {/* Bagian kedua menu */}
         <div className="py-1" role="none">
           <a
-            href="#"
+            href="#pelatihan"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem"
             id="menu-item-2"
@@ -132,7 +132,7 @@ export default function BtnDrop() {
           </a>
           {/* ............... */}
           <a
-            href="#"
+            href="#product"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem"
             id="menu-item-3"
@@ -153,7 +153,7 @@ export default function BtnDrop() {
         {/* Bagian ketiga menu */}
         <div className="py-1" role="none">
           <a
-            href="#"
+            href="#testimoni"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem"
             id="menu-item-4"
@@ -171,7 +171,7 @@ export default function BtnDrop() {
             Testimoni
           </a>
           <a
-            href="#"
+            href="#about"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem"
             id="menu-item-5"
@@ -192,7 +192,7 @@ export default function BtnDrop() {
         {/* Bagian terakhir menu */}
         <div className="py-1" role="none">
           <a
-            href="#"
+            href="#konsultasi"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white hover:text-yellow-600 focus:text-yellow-600"
             role="menuitem"
             id="menu-item-6"

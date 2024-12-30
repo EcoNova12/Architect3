@@ -6,6 +6,13 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+/* variabel font */
+:root {
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+  --font-nunito-sans: 'Nunito Sans', sans-serif;
+  --font-signika-negative: 'Signika Negative', serif;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -17,6 +24,8 @@
 body {
   color: var(--foreground);
   background: white;
-  font-family: Arial, Helvetica, sans-serif;
+  /* ganti font untuk seluruh halaman */
+  font-family: var(--font-signika-negative);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

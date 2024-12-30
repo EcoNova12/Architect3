@@ -1,14 +1,20 @@
-import { Geist, Geist_Mono, Nunito, Nunito_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Nunito_Sans, Signika_Negative } from "next/font/google";
 import "./globals.css";
 import HeaderThree from "@/components/HeaderThree";
 
-const nunitoSans = Nunito({
-  variable: "--font-geist-sans",
+const nunitoSans = Nunito_Sans({
+  variable: " --font-nunito-sans",
   subsets: ["latin"],
   style: ["normal", "italic"],
-  weight:["300","400","700"],
+  weight: ["300", "400", "700"],
 });
 
+const SignikaNegative = Signika_Negative({
+  variable: "--font-signika-negative",
+  subsets: ["latin"],
+  style: ["normal"],
+  weight: ["300", "400", "700"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +37,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${nunitoSans.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${nunitoSans.variable} ${SignikaNegative.variable} antialiased`}
+      >
         <HeaderThree />
         {children}
       </body>
@@ -39,4 +47,4 @@ export default function RootLayout({ children }) {
   );
 }
 
-// ${geistSans.variable} ${geistMono.variable}
+// 

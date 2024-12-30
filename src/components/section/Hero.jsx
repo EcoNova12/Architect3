@@ -3,8 +3,8 @@ import WhatsAppButton from "../WhatsApp";
 export default function Hero() {
   return (
     <>
-      <div className="hero bg-[url('/image/Background.png')] bg-cover bg-center min-h-screen">
-        <section className="hero-content container mx-auto pt-10 sm:pt-16 md:pt-10 lg:pt-16">
+      <div className="hero bg-[url('/image/Background.png')] bg-cover bg-center min-h-screen overflow-x-hidden">
+        <section className="hero-content mx-auto pt-10 sm:pt-16 md:pt-10 lg:pt-16">
           <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid items-center grid-cols-1 md:grid-cols-2">
               <div data-aos="fade-right">

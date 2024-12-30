@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,6 +14,7 @@ import Testimoni from "@/components/section/Testimoni";
 import WhatsAppForm from "@/components/WhatsAppForm";
 import About from "@/components/section/About";
 import DataDesain from "@/data/DataDesain";
+import DataGambar from "@/data/DataGambar";
 
 export default function HomeScreen() {
   useEffect(() => {
@@ -24,29 +25,12 @@ export default function HomeScreen() {
     });
   }, []);
 
-
-  const testimonials = [
-    {
-      name: "John Doe",
-      comment: "Layanan yang luar biasa! Saya sangat puas.",
-      image: "/images/john.jpg", // Path gambar di folder public
-    },
-    {
-      name: "Jane Smith",
-      comment: "Tim sangat profesional dan hasilnya sesuai harapan!",
-      image: "/images/jane.jpg",
-    },
-    {
-      name: "Alex Johnson",
-      comment: "Pengalaman terbaik yang pernah saya dapatkan.",
-      image: "/images/alex.jpg",
-    },
-  ];
-
   return (
     <>
       {/* Hero Section */}
-      <Hero />
+      <div id="home">
+        <Hero />
+      </div>
 
       {/* Motto perusahaan */}
       <Motto />
@@ -58,10 +42,12 @@ export default function HomeScreen() {
       <Services />
 
       {/* Pelatihan yang akan di lakukan......... */}
-      <Pelatihan />
+      <div id="pelatihan">
+        <Pelatihan />
+      </div>
 
       {/* Card Product */}
-      <div className="bg-slate-900 p-2">
+      <div id="product" className="bg-slate-900 p-2">
         {/* desain...... */}
         <section className="container rounded-md mx-auto my-5 lg:my-10 lg:px-6 bg-white">
           <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -98,7 +84,7 @@ export default function HomeScreen() {
         <section className="container rounded-md mx-auto my-5 lg:my-10 lg:px-6 bg-white">
           <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
             {/* ....Tabs ......... */}
-            <Tabs data={DataDesain} />
+            <Tabs data={DataGambar} />
 
             <div
               data-aos="fade-right"
@@ -132,11 +118,15 @@ export default function HomeScreen() {
       {/* line */}
       <Line />
       {/* About */}
-      <About />
+      <div id="about">
+        <About />
+      </div>
       {/* Testimoni */}
-      <Testimoni />
+      <div id="testimoni">
+        <Testimoni />
+      </div>
       {/* User mengirimkan pesan lansung Whatsapp */}
-      <div className="container bg-white mx-auto p-5 lg:max-w-lg">
+      <div id="konsultasi" className="container bg-white mx-auto p-5 lg:max-w-lg">
         <WhatsAppForm />
       </div>
 

@@ -42,7 +42,7 @@ export default function HeaderThree() {
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0">
-              <a href="#" title="logo" className="flex">
+              <a href="#home" title="logo" className="flex">
                 <Image
                   className="w-auto h-12 rounded-full"
                   src={logo}
@@ -65,7 +65,7 @@ export default function HeaderThree() {
               <ul tabIndex={0} className="flex gap-x-3 text-white">
                 <li className="">
                   <a
-                    href="#"
+                    href="#home"
                     className="flex gap-2 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600"
                   >
                     <svg
@@ -82,7 +82,7 @@ export default function HeaderThree() {
                 </li>
 
                 <li>
-                  <a className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
+                  <a href="#konsultasi" className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
@@ -96,7 +96,7 @@ export default function HeaderThree() {
                   </a>
                 </li>
                 <li>
-                  <a className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
+                  <a href="#pelatihan" className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
@@ -111,7 +111,7 @@ export default function HeaderThree() {
                 </li>
 
                 <li>
-                  <a className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
+                  <a href="#product" className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
@@ -126,7 +126,7 @@ export default function HeaderThree() {
                 </li>
 
                 <li>
-                  <a className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
+                  <a href="#testimoni" className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
@@ -141,7 +141,7 @@ export default function HeaderThree() {
                 </li>
 
                 <li>
-                  <a className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
+                  <a href="#about" className="flex gap-1 text-sm font-semibold text-white hover:text-yellow-600 focus:text-yellow-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
@@ -158,7 +158,7 @@ export default function HeaderThree() {
 
               <div className="w-px h-5 bg-black/20" />
               <a
-                href="#"
+                href="#konsultasi"
                 title=""
                 className="rounded-md inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-white bg-black border-2 border-black hover:bg-yellow-600 hover:text-white transition-all duration-200 focus:bg-yellow-600 focus:text-slate-900"
                 role="button"

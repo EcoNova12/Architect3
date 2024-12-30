@@ -19,6 +19,7 @@ const Tabs = ({ data }) => {
                 : "text-gray-500 hover:text-yellow-600"
             }`}
             onClick={() => setActiveTab(tab.id)}
+            scroll={false ? value : undefined}
           >
             {tab.label}
           </button>

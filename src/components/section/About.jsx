@@ -7,7 +7,7 @@ export default function About(){
               <div className="relative">
                 <img
                   className="animate-float md:absolute md:bottom-0 md:scale-110 md:origin-bottom-right lg:scale-75 2xl:scale-100 2xl:-mt-20 drop-shadow-2xl"
-                  src="./image/konstruksi.png"
+                  src="./image/desain-bangunan.png"
                   alt=""
                 />
               </div>
