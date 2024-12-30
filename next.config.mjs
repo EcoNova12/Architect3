@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    localPatterns: [
+      {
+        pathname: "/image/**",
+        search: "",
+      },
+    ],
+  },
+};
 
 export default nextConfig;

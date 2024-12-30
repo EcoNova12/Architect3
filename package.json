@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/codemod": "^15.1.3",
+    "@next/font": "^14.2.15",
     "aos": "^3.0.0-beta.6",
-    "next": "15.1.3",
+    "next": "^15.1.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

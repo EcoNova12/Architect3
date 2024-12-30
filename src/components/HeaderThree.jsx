@@ -2,6 +2,9 @@
 
 import { useState, useEffect } from "react";
 import BtnDrop from "./BtnDrop";
+import Image from "next/image";
+import logo from "../app/favicon.ico"
+
 
 export default function HeaderThree() {
   const [isVisible, setIsVisible] = useState(true);
@@ -35,16 +38,23 @@ export default function HeaderThree() {
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <header className="container mx-auto p-1 rounded-md bg-black bg-opacity-35 shadow-md">
+      <header className="mx-auto p-1 rounded-md bg-black bg-opacity-35 shadow-md">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0">
-              <a href="#" title="" className="flex">
-                <img
+              <a href="#" title="logo" className="flex">
+                <Image
                   className="w-auto h-12 rounded-full"
-                  src="./favicon.ico"
+                  src={logo}
                   alt="Icon"
+                  width={10}
+                  height={10}
                 />
+
+                <div className="mx-3 text-white">
+                  <h1 className="font-bold font-serif">JRK.id</h1>
+                  <p className="text-xs font-semibold">Konsisten, Profesional, Integritas</p>
+                </div>
               </a>
             </div>
 
