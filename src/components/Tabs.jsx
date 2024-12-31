@@ -33,7 +33,10 @@ const Tabs = ({ data }) => {
                 ? "text-yellow-600 border-b-2 border-yellow-600"
                 : "text-gray-50 hover:text-yellow-600"
             }`}
-            onClick={() => setActiveTab(tab.id)}
+            onClick={(e) => {
+              e.preventDefault(); // Mencegah navigasi
+              setActiveTab(tab.id); // Mengatur tab aktif
+            }}
           >
             {tab.label}
           </button>
@@ -55,7 +58,9 @@ const Tabs = ({ data }) => {
             >
               <h3 className="text-lg text-black font-bold mb-2">{item.name}</h3>
               <p className="text-gray-700">{item.description}</p>
-              <p className="text-yellow-600 text-sm mt-1 underline underline-offset-2">klik Card untuk informasi lebih lanjut</p>
+              <p className="text-yellow-600 text-sm mt-1 underline underline-offset-2">
+                klik Card untuk informasi lebih lanjut
+              </p>
             </div>
           )) || <p className="text-gray-700">Konten tidak tersedia.</p>}
         </div>
