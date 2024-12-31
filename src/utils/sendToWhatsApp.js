@@ -1,7 +1,10 @@
-export function sendToWhatsApp(phoneNumber, message) {
-  if (!phoneNumber || !message.trim()) {
-    console.error("Nomor telepon atau pesan tidak valid.");
-    alert("Nomor telepon atau pesan tidak boleh kosong.");
+export function sendToWhatsApp(message) {
+  // Nomor telepon tujuan, format internasional (tanpa tanda +)
+  const phoneNumber = "6285384835313"; // Ganti dengan nomor WhatsApp tujuan Anda
+
+  if (!message.trim()) {
+    console.error("Pesan tidak valid.");
+    alert("Pesan tidak boleh kosong.");
     return;
   }
 

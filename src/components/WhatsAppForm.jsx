@@ -7,8 +7,6 @@ export default function WhatsAppForm() {
   const [username, setUsername] = useState("");
   const [message, setMessage] = useState("");
 
-  const phoneNumber = "6282289722997"; // Nomor WhatsApp langsung di-set di sini
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -19,7 +17,7 @@ export default function WhatsAppForm() {
 
     // Format pesan
     const formattedMessage = `Halo! Saya ${username}.\n\nPesan saya adalah:\n${message}\n\nTerima kasih!`;
-    sendToWhatsApp(phoneNumber, formattedMessage);
+    sendToWhatsApp(formattedMessage);
   };
 
   return (
@@ -34,7 +32,7 @@ export default function WhatsAppForm() {
             <div className="sm:col-span-4">
               <label
                 htmlFor="username"
-                className="block text-sm/6 font-medium text-gray-900"
+                className="block text-sm/6 font-bold text-gray-900"
               >
                 Username
               </label>
@@ -55,7 +53,7 @@ export default function WhatsAppForm() {
             <div className="col-span-full">
               <label
                 htmlFor="message"
-                className="block text-sm/6 font-medium text-gray-900"
+                className="block text-sm/6 font-bold text-gray-900"
               >
                 Pesan Anda
               </label>

@@ -12,9 +12,11 @@ export default function Hero() {
                   Build Your <span>Dream ___</span>
                 </h1>
                 <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-300 md:mt-8">
-                  Benefit of the society where we operate. A successful website
-                  obviously needs great design to be one of the top 10 IT
-                  companies in the world.
+                  "Wujudkan impian Anda dengan layanan jasa konstruksi
+                  terpercaya kami! Dengan pengalaman, keahlian, dan komitmen
+                  tinggi, kami menghadirkan kualitas terbaik untuk membangun
+                  hunian, kantor, atau proyek Anda. Hubungi kami sekarang dan
+                  jadikan visi Anda kenyataan!"
                 </p>
                 <p className="mt-4 text-xl text-gray-600 md:mt-8">
                   <span className="relative inline-block">
@@ -34,7 +36,7 @@ export default function Hero() {
                   <span>or</span>
                   <span> </span>
                   <WhatsAppButton
-                    phoneNumber="6282289722997"
+                    phoneNumber="6285384835313"
                     message="Halo, saya ingin informasi lebih lanjut!"
                   />
                 </p>

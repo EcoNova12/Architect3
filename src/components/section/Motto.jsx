@@ -33,17 +33,20 @@ export default function Motto() {
               >
                 <blockquote>
                   <p className="text-2xl font-semibold leading-relaxed text-gray-900">
-                    "Merancang Karya dengan Inovasi, Membangun Masa Depan dengan
-                    Kualitas, dan Mewujudkan Impian dengan Keunggulan"
+                    "Bingung mencari jasa desain konstruksi terbaik? Mulai dari
+                    hanya Rp4.000, kami siap membantu Anda mewujudkan desain
+                    impian untuk proyek Anda. Jangan lewatkan kesempatan ini!
+                    Hubungi kami sekarang untuk konsultasi dan penawaran
+                    terbaik!" 
                   </p>
                 </blockquote>
 
-                <p className="mt-12 text-base text-gray-900 lg:mt-20">
+                <p className="mt-8 text-base text-gray-900 lg:mt-20">
                   Cari tahu lebih banyak tentang kami..!
                 </p>
                 <a
-                  href=""
-                  title=""
+                  href="#product"
+                  title="load more"
                   className="inline-flex items-center justify-center px-8 py-4 my-5 text-base font-semibold text-white transition-all duration-200 bg-black rounded-md hover:opacity-80 focus:opacity-80"
                   role="button"
                 >

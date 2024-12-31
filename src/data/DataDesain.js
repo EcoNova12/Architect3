@@ -1,43 +1,47 @@
-const DataDesain = [
-  { id: "tab1", label: "Desain Gedung", 
-    content: "Desain Gedung", 
-    image: "./image/topikuning.png" },
+import DataSatu  from "./DataSatu";
+import DataDua from "./DataDua";
+import DataTiga  from "./DataTiga";
+import DataEmpat from "./DataEmpat";
+import DataLima  from "./DataLima";
+import DataEnam  from "./DataEnam";
+import DataTuju  from "./DataTuju";
 
+const DataDesain = [
+  {
+    id: "tab1",
+    label:
+      "Desain Saluran Terbuka dan Tertutup Manajemen dan Sistem Transportasi",
+    content: DataSatu,
+  },
   {
     id: "tab2",
-    label: "Desain Jembatan",
-    content: "Desain Jembatan",
-    image: "./image/topikuning.png",
+    label: "Dokumen UKL-UPL dan AMDAL Survey Pengukuran",
+    content: DataDua,
   },
   {
     id: "tab3",
-    label: "Desain Perkerasan Jalan",
-    content: "Desain Perkerasan Jalan",
-    image: "./image/topikuning.png",
+    label: "Desain Struktur Bangunan Gedung",
+    content: DataTiga,
   },
   {
     id: "tab4",
-    label: "Desain Jetteg atau Dermaga",
-    content: "Desain Jetteg atau Dermaga",
-    image: "./image/topikuning.png",
+    label: "Desain Perkerasan Jalan",
+    content: DataEmpat,
   },
   {
     id: "tab5",
-    label: "Desain Retaining Wall",
-    content: "Desain Retaining Wall",
-    image: "./image/topikuning.png",
+    label: "Desain Arsitektur",
+    content: DataLima,
   },
   {
     id: "tab6",
-    label: "Desain Galian dan Timbunan Tanah",
-    content: "Desain Galian dan Timbunan Tanah",
-    image: "./image/topikuning.png",
+    label: "Desain Galian, Timbunan, dan Konsolidasi",
+    content: DataEnam,
   },
   {
     id: "tab7",
-    label: "Desain Box Culvert, Drainase, Pedestrian Dll",
-    content: "Desain Box Culvert, Drainase, Pedestrian Dll",
-    image: "./image/topikuning.png",
+    label: "Desain Struktur Infrastruktur",
+    content: DataTuju,
   },
 ];
 

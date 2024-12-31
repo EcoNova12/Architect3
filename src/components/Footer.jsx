@@ -16,6 +16,7 @@ export default function Footer() {
           />
           <h1 className="font-bold lg:text-xl font-serif">JRK.id</h1>
           <p className="font-semibold">Komitmen, Profesional, Integritas</p>
+          <p className="font-semibold text-yellow-600 underline underline-offset-4">@Eamil : karsyamajubersama@gmail.com</p>
         </aside>
 
         <nav>

@@ -28,7 +28,7 @@ export default function Pelatihan(){
             </div>
             <div className="mt-12 text-center">
               <a
-                href="testimoni"
+                href="#testimoni"
                 title=""
                 role="button"
                 className="inline-flex p-3 font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline lg:text-xl "
