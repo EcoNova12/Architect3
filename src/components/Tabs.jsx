@@ -17,7 +17,7 @@ const Tabs = ({ data }) => {
 
 
   return (
-    <div className="container lg:h-[900px] mx-auto p-5">
+    <div className="container lg:h-[1000px] mx-auto p-5">
       {" "}
       <h2 className="mb-10 text-3xl text-center font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
         Product Jasa Desain
@@ -27,6 +27,7 @@ const Tabs = ({ data }) => {
         {data.map((tab) => (
           <button
             key={tab.id}
+            type="button"
             className={`px-4 lg:text-base py-2 font-semibold transition-all duration-300 ${
               activeTab === tab.id
                 ? "text-yellow-600 border-b-2 border-yellow-600"
@@ -52,8 +53,9 @@ const Tabs = ({ data }) => {
               className="p-4 cursor-pointer border rounded-lg shadow-md bg-white hover:shadow-lg transition-shadow duration-300"
               onClick={() => handleCardClick(item.name)}
             >
-              <h3 className="text-lg font-bold mb-2">{item.name}</h3>
+              <h3 className="text-lg text-black font-bold mb-2">{item.name}</h3>
               <p className="text-gray-700">{item.description}</p>
+              <p className="text-yellow-600 text-sm mt-1 underline underline-offset-2">klik Card untuk informasi lebih lanjut</p>
             </div>
           )) || <p className="text-gray-700">Konten tidak tersedia.</p>}
         </div>
